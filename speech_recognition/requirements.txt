@@ -1,0 +1,7 @@
+aiofiles
+argparse
+fastapi
+passlib[bcrypt]
+python-jose[cryptography]
+sqlalchemy
+uvicorn[standard]

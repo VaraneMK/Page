@@ -1,0 +1,29 @@
+.content__header {
+	margin: 1.88rem 0;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.globe {
+	position: absolute;
+	top: 0rem;
+	left: -5rem;
+	cursor: pointer;
+
+	transition: 0.2s all;
+	background: none;
+}
+
+.globe:first-child {
+	margin-right: 5rem;
+}
+.globe:hover path {
+	fill: #38a169;
+}
+
+.check {
+	position: absolute;
+	right: 1rem;
+}

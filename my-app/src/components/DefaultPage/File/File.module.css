@@ -1,0 +1,90 @@
+.file__page {
+	display: grid;
+	width: 80%;
+}
+
+.file {
+	width: 40rem;
+	justify-self: center;
+	overflow-y: scroll;
+}
+
+.file__info {
+	display: flex;
+	width: 100%;
+	padding: 1.875rem;
+	justify-content: space-between;
+	gap: 1.875rem;
+}
+
+.file__name {
+	color: #000;
+	font-family: 'Inter';
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 1.5rem */
+}
+
+.file__date {
+	color: #000;
+
+	font-family: 'Inter';
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 1.3125rem */
+}
+
+.file__size {
+	color: #000;
+
+	/* component-text/sm */
+	font-family: 'Inter';
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 1.3125rem */
+}
+
+.info__block {
+	display: flex;
+	flex-direction: column;
+}
+
+.secondary__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.download__btn {
+	display: flex;
+	height: 3rem;
+	padding: 0rem 1.5rem;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	border-radius: 0.375rem;
+	border: 1px solid var(--gray-200, #e2e8f0);
+
+	color: var(--gray-800, #1a202c);
+
+	font-family: 'Inter';
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.75rem; /* 155.556% */
+
+	background: #00000000;
+}
+
+.file__text {
+	width: 100%;
+	padding: 1.875rem;
+	color: #000;
+	font-family: 'Inter';
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}

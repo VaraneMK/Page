@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	width: 100%;
+	padding: 1.625rem 3.75rem;
+	justify-content: space-between;
+	align-items: center;
+
+	border-bottom: 1px solid #cbd5e0;
+}
+
+.btn__area {
+	display: flex;
+	gap: 1.88rem;
+}

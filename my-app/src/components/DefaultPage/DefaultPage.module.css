@@ -1,0 +1,4 @@
+.default__page {
+	height: calc(100vh - 103px);
+	display: flex;
+}

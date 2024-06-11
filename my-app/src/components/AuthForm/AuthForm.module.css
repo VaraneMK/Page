@@ -1,0 +1,37 @@
+.auth__page {
+	display: flex;
+	padding: 0.625rem;
+	align-self: center;
+	justify-self: center;
+	gap: 3.125rem;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.title {
+	color: #000;
+	font-family: 'Inter';
+	font-size: 3.75rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100%; /* 3.75rem */
+}
+
+.error__text {
+	color: #e53e3e;
+
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.25rem; /* 142.857% */
+}
+
+.btn__area {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}

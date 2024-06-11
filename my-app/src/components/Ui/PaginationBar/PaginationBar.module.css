@@ -1,0 +1,27 @@
+.block {
+	margin-top: 5rem;
+	width: 100%;
+	display: flex;
+	gap: 3rem;
+	justify-content: center;
+	align-items: center;
+
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+.page__number {
+	font-size: 2.5rem;
+}
+
+.block svg {
+	cursor: pointer;
+}
+
+.block svg:hover path {
+	fill: #38a169;
+}

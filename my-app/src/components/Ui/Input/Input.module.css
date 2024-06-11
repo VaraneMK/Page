@@ -1,0 +1,46 @@
+.error__text {
+	color: red;
+	font-size: 0.8rem;
+}
+
+.error__text p {
+	margin: 0;
+}
+.input__area {
+	width: 32.25rem;
+	position: relative;
+}
+
+.input__area svg {
+	position: absolute;
+	right: 0.8rem;
+	top: 0.5rem;
+}
+
+.title {
+	color: #000;
+
+	font-family: 'Inter';
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%;
+}
+
+.input__form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.62rem;
+	width: 100%;
+}
+
+.view {
+	position: absolute;
+	left: 30rem;
+	margin-top: 0.5rem;
+	cursor: pointer;
+}
+
+.view:hover path {
+	fill: #38a169;
+}
